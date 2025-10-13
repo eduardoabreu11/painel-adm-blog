@@ -1,0 +1,87 @@
+
+.container-colunistas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    min-height: 100vh;
+}
+
+.container-colunistas h1{
+    padding: 30px 0px 30px 0px;
+}
+
+
+.lista-colunistas{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.colunista{
+    background-color: rgb(1, 177, 177);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.colunista img{
+    max-width: 150px;
+}
+.colunista p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.btn-colunista{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-colunista button{
+    max-width: 100px;
+    
+    height: 60px;
+    font-size: 0.9rem;
+}
+
+.header-colunistas h2{
+    color: black;
+}
+
+.header-colunistas {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+  background-color: rgb(1, 177, 177);
+  
+}
+
+.containerBtn-colunistas{
+    display: flex;
+    gap: 2rem;
+}
+
+.containerBtn-colunistas .inserir{
+     background-color: green;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}

@@ -1,0 +1,53 @@
+
+
+
+
+.post {
+  background-color: rgb(1, 177, 177);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  width: 650px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.post p {
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.container-buttons {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.post button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100px;
+  transition: background-color 0.2s ease;
+}
+
+.post button:hover {
+  background-color: #1a4ed8;
+}

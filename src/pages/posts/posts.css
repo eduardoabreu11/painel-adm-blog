@@ -1,0 +1,94 @@
+.container-posts {
+  
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  
+  min-height: 100vh;
+}
+
+.header-posts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgb(1, 177, 177);
+}
+
+h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.containerBtn-post{
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.containerBtn-post button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.container-conteudo {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  
+}
+
+.container-conteudo img{
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.containerBtn-post button:hover {
+  background-color: #0e8a0e;
+}
+
+.posts {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 30px;
+}
+
+
+
+/* botão Ver mais */
+.btn-vermais {
+  
+  
+  border-radius: 5px;
+ 
+ 
+}
+.btn-vermais button{
+  margin-top: 25px;
+  background-color: rgb(255, 255, 255)!important;
+  border-radius: 5px;
+  padding-top: 25px;
+  color: black;
+  font-weight: bold
+ 
+ 
+}
+
+.btn-vermais button:hover {
+  background-color: #1a4ed8;
+}
+

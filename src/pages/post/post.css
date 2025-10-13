@@ -1,0 +1,30 @@
+.container-post{
+    display: flex;
+    justify-content: center;
+    background-color: #1a4ed8;
+    min-height: 100vh;
+}
+
+.botoes button{
+  margin-left: 1rem;
+}
+
+.container-post .post{
+    background-color: rgb(231, 231, 231);
+    width: 1250px;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.container-post .post img{
+  max-width: 1200px;
+  max-height: 900px;
+}
+
+.post p{
+  line-height: 1.8rem;
+  font-weight: 600;
+}

@@ -1,0 +1,46 @@
+.container-materias {
+  
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  
+  min-height: 100vh;
+}
+
+.header-materias {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgb(1, 177, 177);
+}
+
+h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.containerBtn-materias{
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.containerBtn-materias .inserir{
+        background-color: green;
+}
+
+.containerBtn-materias button {
+  
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}

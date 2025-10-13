@@ -1,0 +1,56 @@
+.container-banners{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+        ;
+}
+.header-banners{
+    background-color: rgb(1, 177, 177);
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  
+  padding: 2.5rem;
+
+}
+.container-banners h1{
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.banners{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    
+    height: 100vh;
+}
+
+.banner{
+    
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.buttons-banners{
+    
+    margin-top: 20px;
+}
+
+.banner img{
+    max-width: 600px;
+    max-height: 500px;
+}

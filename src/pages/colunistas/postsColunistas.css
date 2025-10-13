@@ -1,0 +1,101 @@
+.container-posts-colunistas {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+.header-posts-colunistas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+   background-color: rgb(1, 177, 177);
+}
+.containerBtn-postsColunistas{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.containerBtn-postsColunistas .inserir {
+background-color: green;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.header-posts-colunistas button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.lista-posts-colunistas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.post-colunista {
+  background-color: #d3d1d1;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  width: 650px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.post-colunista h3{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.post-colunista img {
+  max-width: 600px;
+  max-height: 500px;
+}
+.post-colunista p {
+   color: #333;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.botoes-posts-colunista button {
+    background-color: rgb(1, 177, 177);
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100px;
+  transition: background-color 0.2s ease;
+}
+
+.botoes-posts-colunista button:hover{
+    background-color: #1a4ed8;
+}
+
+.botoes-posts-colunista  {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
