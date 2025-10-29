@@ -1,6 +1,8 @@
 import "./postagem.css";
 
 function Postagem({ post, abrirPost, editarPost, excluirPost }) {
+  const id = post.id_post || post.id_materia; // ✅ pega o ID correto dependendo do tipo
+
   return (
     <div className="post">
       <div className="container-conteudo">
@@ -15,9 +17,9 @@ function Postagem({ post, abrirPost, editarPost, excluirPost }) {
       </div>
 
       <div className="container-buttons">
-        <button onClick={() => abrirPost(post.id_post)}>Abrir</button>
-        <button onClick={() => editarPost(post)}>Editar</button>
-        <button onClick={() => excluirPost(post.id_post)}>Excluir</button>
+        <button onClick={() => abrirPost(id)}>Abrir</button>
+        {editarPost && <button onClick={() => editarPost(post)}>Editar</button>}
+        {excluirPost && <button onClick={() => excluirPost(id)}>Excluir</button>}
       </div>
     </div>
   );

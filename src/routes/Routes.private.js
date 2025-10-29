@@ -6,7 +6,8 @@ import Banner from "../pages/banner/banner.js";
 import Colunistas from "../pages/colunistas/colunistas.js";
 import PostsColunistas from "../pages/colunistas/posts-colunistas.js";
 import Videos from "../pages/videos/videos.js"
-import Materias from "../pages/materias/materias.jsx";
+import Materias from "../pages/materias/materias.js";
+import Materia from "../pages/materia/materia.js";
 
 
 
@@ -23,6 +24,7 @@ export default function RoutesPrivate() {
       <Route path="/admin/colunistas/:id_colunista/posts" element={<PostsColunistas />} />
       <Route path="/videos" element={<Videos />} />
       <Route path="/materias" element={<Materias />} />
+      <Route path="/materias/:id_materia" element={<Materia />} />
       
       
 

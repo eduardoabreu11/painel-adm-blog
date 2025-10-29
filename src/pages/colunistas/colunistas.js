@@ -21,6 +21,7 @@ const navigate = useNavigate();
       try {
         const response = await api.get("/colunistas");
         if (response.data) {
+          console.log(response.data)
           setColunistas(response.data);
           
         }
